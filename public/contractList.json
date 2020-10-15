@@ -1,0 +1,54 @@
+{
+    "list": [
+        {
+            "id": 1,
+            "contractName": "张三",
+            "serviceVersion": 123,
+            "signTime": "2019-10",
+            "beginTime": "2019-10",
+            "endTime": "2019-11",
+            "contractNum" :"123",
+            "contractState":"成功",
+            "saleMan":"小李",
+            "sigFactory":"工厂1"
+        },
+        {
+            "id": 2,
+            "contractName": "张三",
+            "serviceVersion": 123,
+            "signTime": "2019-10",
+            "beginTime": "2019-10",
+            "endTime": "2019-11",
+            "contractNum" :"4556",
+            "contractState":"成功",
+            "saleMan":"小李",
+            "sigFactory":"工厂1"
+        },
+        {
+            "id": 3,
+            "contractName": "张三",
+            "serviceVersion": 123,
+            "signTime": "2019-10",
+            "beginTime": "2019-10",
+            "endTime": "2019-11",
+            "contractNum" :"5656",
+            "contractState":"成功",
+            "saleMan":"小李",
+            "sigFactory":"工厂1"
+        },
+        {
+            "id": 4,
+            "contractName": "张三",
+            "serviceVersion": 123,
+            "signTime": "2019-10",
+            "beginTime": "2019-10",
+            "endTime": "2019-11",
+            "contractNum" :"454545",
+            "contractState":"成功",
+            "saleMan":"小李",
+            "sigFactory":"工厂1"
+        }
+      
+    ],
+    "pageTotal": 4
+}

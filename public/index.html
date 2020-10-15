@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="shortcut icon" type="image/x-icon" href="./logo/logo(2).ico">
+    <title>web远程协助</title>
+  </head>
+  <body>
+    <noscript>
+      <strong></strong>
+    </noscript>
+    <div id="app"></div>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>    
+    <script type="text/javascript" src="http://www.jsons.cn/Down/jquery.json2xml.js"></script>
+    <script type="text/javascript" src="http://www.jsons.cn/Down/jquery.xml2json.js"></script>
+    <!-- <script src="https://cdn.agora.io/sdk/release/AgoraRTCSDK-3.2.1.js"></script> -->
+    <!-- <script src="../src/components/common/materialize.min.js"></script> -->
+    <!-- <link rel="stylesheet" href="../src/components/common/materialize.min.css"> -->
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+    <script type="text/javascript">
+        var cityIndex=returnCitySN.cname.indexOf('省')
+        var cn=returnCitySN.cname
+        var CityName=cn.substring(Number(cityIndex)+1,(cn.length-1))
+        localStorage.setItem('weatherCity',CityName)
+    </script>
+  </body>   
+  
+</html>

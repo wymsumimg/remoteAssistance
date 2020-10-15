@@ -1,0 +1,207 @@
+.switchStyle .el-switch__label {
+    position: absolute;
+    display: none;
+    color: #fff;
+  }
+  .switchStyle .el-switch__label--left {
+    z-index: 9;
+    left: 7px;
+    top: 0px;
+  }
+  .switchStyle .el-switch__label--right {
+    z-index: 9;
+    left: -18px;
+    top: 0px;
+  }
+  .switchStyle .el-switch__label.is-active {
+    display: block;
+  }
+  .switchStyle.el-switch .el-switch__core,
+  .el-switch .el-switch__label {
+    width: 50px !important;
+  }
+  .noData td{text-align: center;vertical-align: middle;height:40px;color: #909399;}
+  
+  .moreDatesel .el-date-editor--datetimerange.el-input, .el-date-editor--datetimerange.el-input__inner{
+      width: 246px;
+  }
+  .moreDatesel .el-range-editor.el-input__inner{
+      padding: 3px 0px;
+  }
+  .moreDatesel .el-range-editor--small .el-range__close-icon, .el-range-editor--small .el-range__icon{
+      display: none;
+  }
+  .moreDatesel .el-date-editor .el-range-input{
+      width: 45%;
+  }
+  /* 表格图片 */
+  .cocur{
+    width:16px;
+    height:16px;
+    cursor: pointer;
+    
+}
+.hoveTopNormal{
+    position: relative;
+    
+}
+.hoveXian{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    left: -10px;
+    top: -1px;
+    line-height: 14px;
+    border-radius: 10%;
+    background-color: #000;
+    color: #fff;
+    padding: 2px;
+}
+.hoveTopNormal:hover span{
+     display: block;
+}
+/* 表格样式 */
+.globalTableHeight{
+  height: 98%;background: #fff;border: 1px solid #ddd;
+}
+
+.el-table th, .el-table tr{
+  height: 49px;
+}
+
+.imgVideoBox{
+  
+}
+.ivb_ul{
+  margin: 0 20px;
+  
+}
+
+.el-tooltip__popper{
+  /* top: 254px !important; */
+}
+
+/* 不让IE浏览器弹框出现滚动条 */
+.el-dialog__wrapper{
+  overflow: hidden;
+}
+
+// 任务那块的查看详情
+.imgVideoBox{
+  .ivb_ul{
+      margin: 2px 20px;
+      .ivb_li{
+          width: 22%;
+          margin: 0 0 20px 20px;
+          // height: 388px;
+          .rc_imgBox{
+              width: 100%;
+              position: relative;
+              border:1px solid RGBA(100, 137, 176, 1);
+              box-sizing: border-box;
+              .rightImg{
+                  position: absolute;
+                  right: -2px;
+                  top: -2px;
+                  z-index: 99;
+              }
+              .rv_img{
+                  width: 100%;
+                  img{
+                      width: 100%;
+                      height: 100%;
+                  }
+                  .stepPlayBtn {
+                      position: relative;
+                      .playBtn {
+                          width: 50px;
+                          height: 50px;
+                          position: absolute;
+                          left: 50%;
+                          top: 50%;
+                          margin-left: -25px;
+                          margin-top: -25px;
+                          img {
+                              width: 100%;
+                              height: 100%;
+                          }
+                      }
+                  }
+                  
+              }
+              .rc_stepNum{
+                  width: 52px;
+                  height: 44px;
+                  line-height: 44px;
+                  text-align: center;
+                  background: RGBA(19, 117, 185, 0.8);
+                  color: #fff;
+                  font-weight: 800;
+                  font-size: 18px;
+                  position: absolute;
+                  left: 0;
+                  bottom: 0;
+              }
+              .rc_stepPass{
+                  width: 103px;
+                  height: 44px;
+                  line-height: 44px;
+                  text-align: center;
+                  background: RGBA(221, 112, 33, 0.8);
+                  color: #fff;
+                  font-weight: 800;
+                  font-size: 18px;
+                  position: absolute;
+                  right: 0;
+                  bottom: -1px;
+              }
+              .rc_stepPassGreen{
+                  background: RGBA(101, 167, 44, 0.8);
+              }
+          }
+          .rc_textBox{
+              // width: 100%;
+              ul{
+                  padding: 20px 17px;
+                  border: 1px solid #d6d6d6;
+                  li{
+                      width: 100%;
+                      text-align: left; 
+                      // height: 30px;
+                      // line-height: 30px;
+                      
+                      .rct_title{
+                          font-size: 14px;
+                          color: RGBA(59, 159, 255, 1);
+                          font-weight: 800;
+                          width: 74px;
+                          margin-right:0px;
+                                                      
+                      }
+                      .rct_content{
+                          font-size: 14px;
+                          color: RGBA(102, 102, 102, 1);
+                          text-align: left;
+                          width: 150px;
+                      }
+                      .rct_content_top{
+                          // width: 180px;
+                          // height: 44px;
+                      }
+                  }
+              }
+          }
+      }
+  }
+}
+
+// 不让IE浏览器文本域中出现自带滚动条样式
+.el-textarea__inner{
+    overflow-y: auto !important;
+}
+
+
+//调整分页的宽度
+.el-pagination .el-select .el-input{
+    width: 110px;
+}

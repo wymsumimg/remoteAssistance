@@ -1,0 +1,29 @@
+ul,li{list-style:none;}
+p,h1~h6,ul,li{margin:0;padding:0;}
+.el-dialog{
+    display: flex;
+    flex-direction: column;
+    margin:0 !important;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    /*height:600px;*/
+    max-height:calc(100% - 30px);
+    max-width:calc(100% - 30px);
+  }
+  .el-dialog .el-dialog__body{
+    flex:1;
+    overflow: auto;
+  }
+  .newBtn{background:#fff;color:#409eff;font-size:13px;background:#f5f7fa;border-top-left-radius:3px;border-top-right-radius:3px;border-bottom:none;padding:12px 20px;}
+  .newBtn .plusBtn{width:19px;height:13px;display:inline-block;}
+  .newBtn>span{display:inline-block;margin-left:-5px;}
+  .setIconFont{font-size:16px;}
+  /* .setIconFontTable .el-table--enable-row-transition .el-table__body td{padding:4px 0;} */
+  /* , .el-table--small th */
+   .el-table--small td{padding:5px 0 ;}
+   .setIconFont span{font-size:14px!important;}
+   .factoryMess .el-button [class*=el-icon-]+span{font-size:14px!important;}
+   .marsTable{background:#fff;}
+   .marsTable .pagination{position:fixed;right:40px;bottom:30px;}
